@@ -7874,12 +7874,12 @@ ORL_ideas = {
 
 ORM_ideas = {
 	start = {
-		merchants = 1
-		global_foreign_trade_power = 0.1
+		tolerance_heretic = 2
+		discipline = 0.05
 	}
 
 	bonus = {
-		sailor_maintenance_modifer = -0.1
+		trade_steering = 0.15
 	}
 	
 	trigger = {
