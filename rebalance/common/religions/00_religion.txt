@@ -1203,7 +1203,7 @@ eastern = {
 		}
 		country = {
 			tolerance_heretic = 2
-			advisor_cost = -0.1
+			advisor_cost = -0.15
 		}
 		country_as_secondary = {
 			development_cost = -0.1
@@ -1267,7 +1267,7 @@ eastern = {
 		}
 		country = {
 			tolerance_heretic = 2
-			idea_cost = -0.05
+			idea_cost = -0.1
 		}
 		country_as_secondary = {
 			global_tax_modifier = 0.1
