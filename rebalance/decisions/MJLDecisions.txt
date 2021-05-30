@@ -22,7 +22,7 @@ country_decisions = {
 			country_event = { id = mjl_events.5 }
 		}
 	}
-
+	
 	#ARUMBA LINES
 	dev_sum_clicks_decision = {
 		major = yes
@@ -41,7 +41,6 @@ country_decisions = {
 		effect = {
 		}
 	}
-	
 	
 	# PR decision to check if critical events have fired
 	PR_critical_events = {
