@@ -15168,3 +15168,42 @@ ICE_ideas = {
 		culture_conversion_cost = -0.2
 	}
 }
+
+MSA_ideas = {
+	start = {
+		global_trade_power = 0.15
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		ship_durability = 0.1
+	}	
+
+	trigger = {
+		tag = MSA
+	}
+	free = yes
+	
+	msa_settle_the_islands = {
+		global_colonial_growth = 20
+	}
+	msa_advanced_heavyship_warfare = {
+		heavy_ship_power = 0.15
+	}
+	msa_expert_hagglers = {
+		trade_efficiency = 0.15
+	}
+	msa_chart_the_isles = {
+		naval_morale = 0.15
+	}
+	msa_malay_merchants_in_every_port = {
+		merchants = 1
+		light_ship_power = 0.10
+	}
+	msa_agreements_with_the_sea_nomads = {
+		trade_steering = 0.2.5
+	}
+	msa_spice_kings = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}
