@@ -426,3 +426,6 @@
  mjl_events.EVTDESC5:0 "As a country on the verge of change we need to decide which particular religious school we should start patronizing. While there are many ways to follow God we should have a new specific guiding doctrine for our rulers to follow."
  mjl_jap_restore_name_effect_title:0 "Restore Country Name"
  mjl_jap_restore_name_effect_desc:0 ""
+ estate_jains_advisor:0 "Jains Advisory Council"
+ mjl_estate_tribes_advisors:0 "Tribes Advisors"
+ estate_tribes_tribal_primacy:0 "Tribal Primacy"
