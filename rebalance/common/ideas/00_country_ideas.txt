@@ -5018,12 +5018,12 @@ mossi_ideas = {
 
 fulani_jihad_ideas = {
 	start = {
-		recover_army_morale_speed = 0.05
-		cavalry_cost = -0.10
+		recover_army_morale_speed = 0.1
+		global_regiment_cost = -0.1
 	}
 	
 	bonus = {
-		army_tradition_from_battle = 0.5
+		max_absolutism = 15
 	}
 	
 	trigger = {
@@ -5037,14 +5037,17 @@ fulani_jihad_ideas = {
 	
 	wandering_scholars = {
 		missionaries = 1
+		culture_conversion_cost = -0.1
 	}
 	
 	unrighteous_kings = { 
 		defensiveness = 0.15
+		discipline = 0.05
 	}
 	
 	fulani_jihads = {
-		global_missionary_strength = 0.01
+		global_missionary_strength = 0.02
+		missionary_maintenance_cost = -0.15
 	}
 	
 	imams_and_emirs = { 
@@ -5056,7 +5059,7 @@ fulani_jihad_ideas = {
 	}
 	
 	community_of_the_faithful = {
-		num_accepted_cultures = 1
+		advisor_cost = -0.1
 	}
 
 	caliph_in_africa = {
