@@ -1247,6 +1247,20 @@ estate_church_clerical_ministers = {
 	icon = privilege_recruit_minister
 	max_absolutism = -5
 	influence = 0.10
+	is_valid = {
+		NOT = {
+			AND = {
+				religion_group = muslim
+				OR = {
+					tag = ADU
+					tag = ARL
+					tag = MOR
+					tag = MSY
+					tag = SRV
+				}
+			}
+		}
+	}
 	conditional_modifier = {
 		trigger = {
 			if = {
