@@ -892,8 +892,7 @@ devotion = {
 	prestige = 2
 	global_tax_modifier = 0.50
 	church_loyalty_modifier = 0.05
-	brahmins_hindu_loyalty_modifier = 0.05
-								   
+	brahmins_hindu_loyalty_modifier = 0.05								   
 }
 
 # Multiplied by current meritocracy - 50
@@ -1087,9 +1086,8 @@ total_blockaded = {
 }
 
 uncontested_cores = {
-	prestige = -0.1
+	#prestige = -0.1
 }
-
 
 num_objectives_fullfilled = {
 	monthly_splendor = 2
@@ -1448,12 +1446,12 @@ native_policy_hostile = {
 
 high_harmony = {
 	tolerance_own = 1
-								
+	global_manpower_modifier = 0.15
+	adm_tech_cost_modifier = -0.1								
 }
 
 low_harmony = {
 	tolerance_own = -3
-	development_cost = 0.25
 	legitimacy = -1
 	meritocracy = -2
 }
