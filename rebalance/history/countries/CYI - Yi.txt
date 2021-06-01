@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = yi
+religion = animism
+technology_group = chinese
+capital = 4213	# Luzhou
+add_accepted_culture = sichuanese
+add_accepted_culture = miao
+
+1432.1.1 = {
+	monarch = {
+		name = "Zaihou"
+		dynasty = "Feng"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}
