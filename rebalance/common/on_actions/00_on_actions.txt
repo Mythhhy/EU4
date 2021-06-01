@@ -12,21 +12,12 @@ on_startup = {
 		save_global_event_target_as = EmperorOfChina
 	}
 	events = {
-		muslim_school_events.20 #Pick School	   
-		mjl_events.4	  
-			   
-			   
-			  
-			  
-				   
-				   
-					 
+		muslim_school_events.20 #Pick School
 #		flavor_fra.15000 #Make the French Revolution happen if starting in 1789
-				  
 	}
 	if = {
 		limit = {
-			has_dlc = "Cradle of Civilization"# country
+			has_dlc = "Cradle of Civilization"
 			has_country_modifier = tur_janissary
 		}
 		remove_country_modifier = tur_janissary
@@ -57,146 +48,6 @@ on_startup = {
 			disaster = french_revolution
 		}
 	}
-	#### Dev click counter ###
-
-	every_country = {
-		if = {
-			limit = {
-				check_variable = {
-					which = dev_adm_clicks					
-					value = 1
-				}
-			}
-		}
-		else = {
-			set_variable = {
-				which = dev_adm_clicks
-				value = 0
-			}
-		}
-	}
-	
-	#ARUMBA LINES
-	every_country = {
-		if = {
-			limit = {
-				check_variable = {
-					which = dev_dip_clicks					
-					value = 1
-				}
-			}
-		}
-		else = {
-			set_variable = {
-				which = dev_dip_clicks
-				value = 0
-			}
-		}
-	}
-	
-	every_country = {
-		if = {
-			limit = {
-				check_variable = {
-					which = dev_mil_clicks					
-					value = 1
-				}
-			}
-		}
-		else = {
-			set_variable = {
-				which = dev_mil_clicks
-				value = 0
-			}
-		}
-	}
-	
-	every_country = {
-		if = {
-			limit = {
-				check_variable = {
-					which = dev_sum_clicks					
-					value = 1
-				}
-			}
-		}
-		else = {
-			set_variable = {
-				which = dev_sum_clicks
-				value = 0
-			}
-		}
-	}
-}					   
-
-				  
-		
-			
-					  
-								
-			  
-	 
-	
-   
-		  
-				   
-						  
-			 
-	
-   
-  
- 
-			  
-				  
-		
-			
-					  
-								
-			  
-	 
-	
-   
-		  
-				   
-						  
-			 
-	
-   
-  
- 
-				  
-		
-			
-					  
-								
-			  
-	 
-	
-   
-		  
-				   
-						  
-			 
-	
-   
-  
- 
-				  
-		
-			
-					  
-								
-			  
-	 
-	
-   
-		  
-				   
-						  
-			 
-	
-   
-  
 }
 
 # country
@@ -312,7 +163,6 @@ on_religion_change = {
 	events = {
 		muslim_school_events.20 #Pick School
 		propagate_religion_events.7 #Propagated Country is now Muslim
-						 
 	}
 }
 
@@ -952,13 +802,6 @@ on_monarch_death = {
 		flavor_pap.19 # death of borgia pope
 		flavor_tus.22 # Medici Pope
 		flavor_tus.24 # death of the Medici Pope
-						   
-			   
-			   
-			   
-			   
-			   
-			   
 	}
 }
 
@@ -1005,7 +848,6 @@ on_new_term_election = {
 		700		# Election event
 		elections.720		# Dutch Republic
 		pirates.1
-	 
 	}
 }
 
@@ -1027,7 +869,6 @@ on_death_election = {
 		elections.721		# Dutch Republic
 		elections.800	# Lottery election
 		flavor_tus.16 #Savonarola Leaves This World
-	 
 	}
 }
 
@@ -1048,7 +889,6 @@ on_replace_governor = {
 
 # country
 on_bankruptcy = {
-								   
 }
 
 # country (country annexing, root = target)
@@ -1650,56 +1490,14 @@ on_dismantle_revolution = {
 
 # province
 on_adm_development = {
-	owner = {
-		country_event = { id = zlewikk.12 }
-	}
-	#ARUMBA LINES
-    hidden_effect = {
-		owner = {
-			change_variable = {
-				which = dev_adm_clicks
-				value = 1
-			}
-			change_variable = {
-				which = dev_sum_clicks
-				value = 1
-			}
-		}
-	}		 
 }
 
 # province
 on_dip_development = {
-	#ARUMBA LINES
-	hidden_effect = {
-		owner = {
-			change_variable = {
-				which = dev_dip_clicks
-				value = 1
-			}
-			change_variable = {
-				which = dev_sum_clicks
-				value = 1
-			}
-		}
-	} 
 }
 
 # province
 on_mil_development = {
-	#ARUMBA LINES
-    hidden_effect = {
-		owner = {
-			change_variable = {
-				which = dev_mil_clicks
-				value = 1
-			}
-			change_variable = {
-				which = dev_sum_clicks
-				value = 1
-			}
-		}
-	} 
 }
 
 on_overextension_pulse = {
@@ -3795,30 +3593,6 @@ on_lose_great_power_status = {
 # province
 on_province_religion_converted = {
 	on_province_religion_converted_estate_privileges_effect = yes
-															  
-															 
-															  
-															
-															   
-														   
-															 
-														   
-														  
-															
-															   
-														   
-															 
-															  
-																
-															  
-														  
-															
-														  
-														   
-															
-															   
-															  
-															   
 }
 
 # province
@@ -3942,61 +3716,51 @@ on_parliament_debate_succeeded = {
 on_harmonized_pagan = {
 	events = {
 		confucian_events.1
-						 
 	}
 }
 on_harmonized_christian = {
 	events = {
 		confucian_events.2
-						 
 	}
 }
 on_harmonized_muslim = {
 	events = {
 		confucian_events.3
-						 
 	}
 }
 on_harmonized_jewish_group = {
 	events = {
 		confucian_events.5
-						 
 	}
 }
 on_harmonized_zoroastrian_group = {
 	events = {
 		confucian_events.6
-						 
 	}
 }
 on_harmonized_dharmic = {
 	events = {
 		confucian_events.4
-						 
 	}
 }
 on_harmonized_mahayana = {
 	events = {
 		confucian_events.9
-						 
 	}
 }
 on_harmonized_buddhism = { #Theravada
 	events = {
 		confucian_events.8
-						 
 	}
 }
 on_harmonized_shinto = {
 	events = {
 		confucian_events.7
-						 
 	}
 }
 on_harmonized_vajrayana = {
 	events = {
 		confucian_events.10
-						 
 	}
 }
 
@@ -4161,22 +3925,6 @@ on_create_vassal = {
 		add_government_reform = papacy_reform
 		adopt_reform_progress = FROM
 	}
-	   
-		   
-			
-						   
-	
-   
-		   
-					
-								
-	
-   
-  
-						 
-										  
-			   
-  
 }
 
 # ROOT = Country establishing it
@@ -4257,23 +4005,7 @@ on_country_released = {
 		capital_scope = {
 			change_religion = FROM
 		}
-  
-	   
-		   
-			
-						   
-	
-   
-		   
-					
-								
-	
-   
 	}
-						 
-										  
-			   
-  
 }
 
 # ROOT = province, FROM = country
@@ -4394,22 +4126,6 @@ on_create_client_state = {
 		add_government_reform = junior_revolutionary_republic_reform
 		set_country_flag = had_revolution
 	}
-	   
-		   
-			
-						   
-	
-   
-		   
-					
-								
-	
-   
-  
-						 
-										  
-			   
-  
 }
 
 # this = new target, from = previous target (both can be non-existent tag)
@@ -4430,207 +4146,6 @@ on_golden_bull_enacted = {
 # FROM = The previous owner.
 on_conquest = {
 	remove_named_unrest = estate_land_seized
-				 
-	   
-		   
-															 
-   
-															   
-							
-  
-	   
-		   
-															 
-   
-															   
-							
-  
-	   
-		   
-															
-   
-															  
-						   
-  
-	   
-		   
-															   
-   
-																 
-							  
-  
-	   
-		   
-															 
-   
-															   
-							
-  
-	   
-		   
-															 
-   
-															   
-							
-  
-	   
-		   
-														   
-   
-															 
-						  
-  
-	   
-		   
-														  
-   
-															
-						 
-  
-	   
-		   
-														 
-   
-														   
-						  
-  
-	   
-		   
-														  
-   
-															
-						 
-  
-	   
-		   
-															  
-   
-																
-							
-  
-	   
-		   
-															  
-   
-																
-							 
-  
-	   
-		   
-															  
-   
-																
-							
-  
-	   
-		   
-														   
-   
-															 
-						  
-  
-	   
-		   
-														  
-   
-															
-							
-  
-	   
-		   
-														 
-   
-														   
-						   
-  
-	   
-		   
-															
-   
-															  
-						   
-  
-	   
-		   
-															  
-   
-																
-							 
-  
-	   
-		   
-															 
-   
-															   
-							
-  
-	   
-		   
-														 
-   
-														   
-						
-  
-	   
-		   
-															
-   
-															  
-						   
-  
-	   
-		   
-														  
-   
-															
-										 
-  
-	   
-		   
-														   
-   
-															 
-										 
-  
-	   
-		   
-														   
-   
-															 
-						  
-  
-	   
-		   
-			
-						   
-							  
-	
-   
-		   
-												   
-   
-  
-						
-	   
-		   
-												  
-   
-		   
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-										 
-   
-  
 }
 
 on_country_creation = {
@@ -4653,20 +4168,4 @@ on_country_creation = {
 		change_government = theocracy
 		add_government_reform = papacy_reform
 	}
-	   
-		   
-			
-						   
-	
-   
-		   
-					
-								
-	
-   
-  
-						 
-										  
-			   
-  
 }
