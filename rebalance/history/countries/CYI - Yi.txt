@@ -3,16 +3,19 @@ add_government_reform = autocracy_reform
 primary_culture = yi
 religion = animism
 technology_group = chinese
-capital = 4213	# Luzhou
+capital = 675	# Umung
 add_accepted_culture = sichuanese
 add_accepted_culture = miao
 
 1432.1.1 = {
 	monarch = {
 		name = "Zaihou"
-		dynasty = "Feng"
+		dynasty = "Ye"
 		adm = 4
 		dip = 2
 		mil = 5
 	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = fertile_personality
+	capital = 4213	# Luzhou
 }

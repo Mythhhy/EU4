@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = cantonese
+capital = 667	#Canton
+add_accepted_culture = chimin
+
+1439.1.1 = {
+	monarch = {
+		name = "Meiyuan"
+		dynasty = "Yue"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
