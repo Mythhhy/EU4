@@ -1,22 +1,19 @@
-#4213 - Luzhou
+#4212 - Jiazhou
 
 owner = CYI
 controller = CYI
 add_core = CYI
-culture = yi
+culture = sichuanese
 religion = confucianism
-capital = "Luzhou"
-trade_goods = grain
+capital = "Jiazhou"
+trade_goods = tea
 hre = no
-base_tax = 2 
+base_tax = 3 
 base_production = 2
 base_manpower = 2
 is_city = yes
 #add_core = CXI
-#add_core = SHU
-add_claim = SHU
-
-
+add_core = SHU
 discovered_by = chinese
 discovered_by = nomad_group
 
