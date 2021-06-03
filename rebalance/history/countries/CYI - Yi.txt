@@ -7,6 +7,11 @@ capital = 675	# Umung
 add_accepted_culture = sichuanese
 add_accepted_culture = miao
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.5
+}
+
 1432.1.1 = {
 	monarch = {
 		name = "Zaihou"

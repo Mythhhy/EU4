@@ -6,6 +6,11 @@ primary_culture = shandong_culture
 capital = 690	#Qingzhou
 add_accepted_culture = zhongyuan
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
 1416.1.1 = {
 	monarch = {
 		name = "Ciwei"

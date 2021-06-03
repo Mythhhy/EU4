@@ -5,6 +5,11 @@ religion = confucianism
 primary_culture = xibei
 capital = 689 # Fengyuan
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
 1443.1.1 = {
 	monarch = {
 		name = "Zicheng"
