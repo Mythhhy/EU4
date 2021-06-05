@@ -2175,6 +2175,7 @@ MCH_ideas = {
 	}
 	manchu_eight_banners = {
 		amount_of_banners = 0.25
+		leader_land_shock = 1
 	}
 	the_manchu_alphabet = {
 		global_institution_spread = 0.05
@@ -2189,7 +2190,6 @@ MCH_ideas = {
 	}
 	manchu_chinese_learning = {
 		mil_tech_cost_modifier = -0.1
-		leader_land_shock = 1
 	}
 	seven_grievances = {
 		ae_impact = -0.1
